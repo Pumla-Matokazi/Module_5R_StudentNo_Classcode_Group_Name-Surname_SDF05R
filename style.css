@@ -42,7 +42,7 @@ p {
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
-    position: relative;
+    position:relative;
     display: block;
     margin: 0 auto 20px; /* Center and add margin to stack vertically */
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
@@ -52,3 +52,46 @@ p {
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
+.btn-1{
+    background-color: crimson;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center; 
+    text-align: top;
+    transition: 0.5s;
+    cursor:pointer
+}
+
+.btn-1:hover{background-color: cyan;}
+    .btn-1:hover span{padding-right: 10px;}
+        .button:active {
+            transform: translateY(4px);
+          }
+
+          .btn-2{
+            background-color:chartreuse;
+            font-size: 16px;
+            border-radius: 12px;
+            padding: 10px;
+            text-align: center; 
+            transition: 0.5s;
+            cursor:pointer}
+
+            .btn-2:hover{background-color:blueviolet;}
+    .btn-2:hover span{padding-right: 10px;}
+        .button:active {transform: translateY(4px);}
+
+            .btn-3{
+                background-color:goldenrod;
+                font-size: 16px;
+                border-radius: 12px;
+                padding: 10px;
+                text-align: center; 
+                text-align: top;
+                transition: 0.5s;
+                cursor:pointer
+            }
+            .btn-3:hover{background-color:darkred;}
+            .btn-3:hover span{padding-left: 10px;}
+            .button:active{transform: translateY(4px);}
